@@ -1,0 +1,82 @@
+.App {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    cursor: none;
+}
+
+#cursor {
+    position: fixed;
+    z-index: 999;
+    pointer-events: none;
+  }
+
+  #cursor img {
+    width: 68px;
+    height: 106px;
+  }
+
+Article {
+    color: rgba(24, 25, 2, 0.995);
+    
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    
+}
+
+.bg1 {
+    background-image: url("/images/bg1.jpg");
+}
+
+.bg2 {
+    background-image: url("/images/bg2.jpg");
+}
+
+.bg3 {
+    background-image: url("/images/bg3.jpg");
+}
+
+.bg4 {
+    background-image: url("/images/bg4.jpg");
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+    .containerInfo_phrase {
+      height: 300px;
+      width: 100%;
+      font-size: 24px;
+      padding: 70px 20px 70px 20px;
+    }
+    
+    .containerInfo__author {
+      width: 100%;
+      height: 250px;
+      font-size: 13px;
+      transform: none;
+    }
+  }
+  
+  /* Estilos para dispositivos de escritorio */
+  @media only screen and (min-width: 768px) {
+    .containerInfo_phrase {
+      height: 250px;
+      width: 452.5232849121094px;
+      font-size: inherit;
+      padding: 70px 33px 70px 33px;
+    }
+    
+    .containerInfo__author {
+      width: 400px;
+      height: 300px;
+      font-size: inherit;
+      transform: translateX(10%);
+    }
+  }
+  
