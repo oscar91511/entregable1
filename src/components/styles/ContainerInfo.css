@@ -82,11 +82,15 @@
        
     }
 
-    .containerInfo__author {
-        font-size: 20px;
-    }
 
     .containerInfo_phrase p {
         font-size: 2rem;
     }
 }    
+
+@media (min-width: 400px) {
+    .containerInfo__author {
+      font-size: 20px;
+      padding: 30px;
+    }
+  }
