@@ -57,6 +57,23 @@
     cursor: pointer;
 }
 
+.Github__icon {
+    color:white;
+    font-size: 40px;
+}
+
+
+.Linkedin__icon {
+    color:white;
+    font-size: 40px;
+}
+
+.Instagram__icon {
+    color:white;
+    font-size: 40px;
+}
+
+
 @media (min-width: 400px) {
 
     .containerInfo_phrase {
