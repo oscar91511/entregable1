@@ -71,22 +71,125 @@
 
 @media (min-width: 400px) {
 
-    .containerInfo_phrase {
-        font-size: 40px;
-        max-width: 800px;
-    }
-
     .containerInfo__title {
-        font-size: 70px;
-        top: 50px;
-       
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: aliceblue;
+        text-align: center;
+        font-weight: bold;
+        font-size: 35px;
+        text-shadow: 5px 5px 1px var(--orange);
+        text-transform: uppercase;
+        left: 25%;
+        transform: translatey(-50px);
     }
-
-    .containerInfo__author {
-        font-size: 20px;
+    
+    
+    .containerInfo_phrase {
+        max-width: 300px;
+        font-family: 'Turret Road', cursive;
+        border-radius: 39px;
+        padding: 50px 40px;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.33) 100%);
+        Fill: Linear Gradient rgba(255, 255, 255, 0.33);
     }
-
+    
     .containerInfo_phrase p {
-        font-size: 2rem;
+        font-size: 1.1rem;
     }
+    
+    
+    .containerInfo__author {
+        width: 400px;
+        height:300px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-image: url("/public/images/planeta1.png");
+        color: rgb(19, 19, 19);
+        font-size: 15px;
+        font-family: 'Delicious Handrawn', cursive;
+        background-size: cover;
+        position: absolute;
+        bottom: 0px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center ;
+    }
+    
+    .containerInfo__title {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: aliceblue;
+        text-align: center;
+        font-weight: bold;
+        font-size: 35px;
+        text-shadow: 5px 5px 1px var(--orange);
+        text-transform: uppercase;
+        left: 25%;
+        transform: translatey(-50px);
+    }
+    
+    
+    .containerInfo_phrase {
+        max-width: 300px;
+        font-family: 'Turret Road', cursive;
+        border-radius: 39px;
+        padding: 50px 40px;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.33) 100%);
+        Fill: Linear Gradient rgba(255, 255, 255, 0.33);
+    }
+    
+    .containerInfo_phrase p {
+        font-size: 1.1rem;
+    }
+    
+    
+    .containerInfo__author {
+        width: 400px;
+        height:300px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-image: url("/public/images/planeta1.png");
+        color: rgb(19, 19, 19);
+        font-size: 15px;
+        font-family: 'Delicious Handrawn', cursive;
+        background-size: cover;
+        position: absolute;
+        bottom: 0px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center ;
+    }
+    
+    
+    .containerInfo__title:hover {
+        color: rgb(130, 196, 249);
+        cursor: pointer;
+    }
+    
+    .Github__icon {
+        font-size: 30px;
+        color:#FFFFFF
+    }
+    
+    .Linkedin__icon {
+        font-size: 30px;
+        color:#FFFFFF
+    }
+    
+    .Instagram__icon {
+        font-size: 30px;
+        color:#FFFFFF
+    }
+    
 }    
